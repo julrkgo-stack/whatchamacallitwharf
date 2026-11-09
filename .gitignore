@@ -1,0 +1,49 @@
+# Build output
+target/
+out/
+bin/
+build/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Maven local helper files (if generated)
+.mvn/timing.properties
+
+# IDE - IntelliJ
+.idea/
+*.iml
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# IDE - VS Code workspace noise (optional)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Env and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# Local database files (if created outside target/)
+*.mv.db
+*.trace.db
+*.h2.db
